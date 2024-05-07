@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
+import Self from './Self/self';
+import { InitSpin } from './initial-spin/initial-spin';
+// import FastSpin from './Spin/Spin';
 
 function App() {
+
+  const [p, setP] = useState(false);
+
+  useEffect(()=>{
+    setTimeout(() => {
+      setP(true);
+    }, 2000);
+  }, [])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {!p ? <InitSpin /> :
+      <Self />}
     </div>
   );
 }

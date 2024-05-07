@@ -1,0 +1,140 @@
+
+.wrapper{
+    width: 100vw !important;
+    height: 100vh !important;
+    background-color: transparent;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mod_wrap{
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(179, 179, 179, 0.7) 0px 10px 15px;
+    width: 410px;
+    padding: 16px !important;
+    border-radius: 6px;
+}
+
+.top_label_logo{
+    padding-bottom: 17px;
+    width: 40px;
+    height: 40px;
+}
+
+.top_label_logo_cont{
+    border-bottom: 1px solid #ccc;
+}
+
+.location{
+    text-align: center;
+    color: #555;
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+}
+
+.bk__end_svce__s_cotn__t{
+    margin-top: 19px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 17px;
+}
+
+.locate_icn{
+    color: rgb(253, 28, 28);
+    color: #969292 !important;
+}
+
+.comment___t_____xt{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.3em;
+    margin-top: 22px;
+}
+
+.profile___emai____l{
+    text-align: center;
+    color: #8c8c8c;
+    padding-top: 2px;
+}
+
+.pswd{
+    width: 95%;
+    border-color: rgb(140, 140, 140);
+    outline: 0 !important;
+    border: 1px solid rgb(140, 140, 140);
+    padding: 16px 9px;
+    border-radius: 3px;
+    transition: all .1s linear;
+}
+
+.pswd:focus{
+    border: 2px solid rgb(140, 140, 140);
+}
+
+.pswd::placeholder{
+    /* font-weight: bold; */
+    font-size: 16px;
+    letter-spacing: 0.5px !important;
+}
+
+.auth_reg_____{
+    color: #f00;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+.show_pasd_feature{
+    display: flex;
+    align-items: center;
+    margin: 13px 0px;
+}
+
+.shpswd_txt__{
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #0A66C3;
+}
+
+.btn_cont{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 22px;
+}
+
+.bt_______n_{
+    color: #fff;
+    text-transform: uppercase !important;
+    background: #0A66C3 !;
+    /* padding-top: 5px !important;
+    padding-bottom: 5px !important; */
+    color: rgb(255, 255, 255);
+    background: rgb(0, 103, 184);
+    border: 1px solid #0A66C3;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    font-size: 15px;
+    padding: 15px 1px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footerDiv___bg_gradia____n{}
+
+.kwe{
+    text-align: center;
+    color: #555;
+    font-size: 13px;
+    user-select: none !important;
+}
+
+@media (max-width: 460px) {
+    .mod_wrap{
+        width: 100% !important;
+    }
+}
